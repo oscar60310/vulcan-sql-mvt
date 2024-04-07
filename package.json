@@ -1,0 +1,20 @@
+{
+  "name": "vulcan-mvt-formatter",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/oscar60310/vulcan-sql-mvt",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Ivan Tsai <oscar60310@gmail.com>",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@vulcan-sql/core": "^0.3.2",
+    "@vulcan-sql/serve": "^0.3.2",
+    "typescript": "^5.4.4"
+  },
+  "peerDependencies": {
+    "@vulcan-sql/serve": "*"
+  }
+}
